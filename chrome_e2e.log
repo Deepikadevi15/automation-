@@ -1,0 +1,272 @@
+﻿[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------< com.naveenautomation:opencart-hybrid-framework >-----------
+[INFO] Building OpenCart Hybrid Framework 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.4.0:resources (default-resources) @ opencart-hybrid-framework ---
+[INFO] skip non existing resourceDirectory C:\Users\deepi\Downloads\Naveen automation\src\main\resources
+[INFO] 
+[INFO] --- compiler:3.15.0:compile (default-compile) @ opencart-hybrid-framework ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- resources:3.4.0:testResources (default-testResources) @ opencart-hybrid-framework ---
+[INFO] Copying 2 resources from src\test\resources to target\test-classes
+[INFO] 
+[INFO] --- compiler:3.15.0:testCompile (default-testCompile) @ opencart-hybrid-framework ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 11 source files with javac [debug target 17] to target\test-classes
+[WARNING] location of system modules is not set in conjunction with -source 17
+  not setting the location of system modules may lead to class files that cannot run on JDK 17
+    --release 17 is recommended instead of -source 17 -target 17 because it sets the location of system modules automatically
+[INFO] 
+[INFO] --- surefire:3.2.5:test (default-test) @ opencart-hybrid-framework ---
+[INFO] Using auto detected provider org.apache.maven.surefire.testng.TestNGProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running TestSuite
+mvn : SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+At line:1 char:66
++ ... \Downloads\Naveen automation'; mvn -Dbrowser=chrome test 2>&1 | Out-F ...
++                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (SLF4J: Failed t...cLoggerBinder". 
+   :String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further 
+details.
+
+Scenario: User registers, logs in, and logs out from OpenCart # src/test/resources/features/openCartSearchAndBrowse.feature:12
+
+Scenario: User registers, logs in, and logs out from OpenCart # src/test/resources/features/openCartSearchAndBrowse.feature:12
+
+Scenario: User opens the homepage and browses a featured product # src/test/resources/features/openCartSearchAndBrowse.feature:6
+
+Scenario: User opens the homepage and browses a featured product # src/test/resources/features/openCartSearchAndBrowse.feature:6
+
+Scenario: User opens the homepage and browses a featured product # src/test/resources/features/openCartSearchAndBrowse.feature:6
+
+Scenario: User registers, logs in, and logs out from OpenCart # src/test/resources/features/openCartSearchAndBrowse.feature:12
+Aug 06, 2026 9:34:12 PM org.openqa.selenium.devtools.CdpVersionFinder 
+findNearestMatch
+WARNING: Unable to find CDP implementation matching 150
+Aug 06, 2026 9:34:12 PM org.openqa.selenium.devtools.CdpVersionFinder 
+findNearestMatch
+WARNING: Unable to find CDP implementation matching 150
+Aug 06, 2026 9:34:12 PM org.openqa.selenium.devtools.CdpVersionFinder 
+findNearestMatch
+WARNING: Unable to find CDP implementation matching 150
+Aug 06, 2026 9:34:12 PM org.openqa.selenium.chromium.ChromiumDriver 
+lambda$new$5
+WARNING: Unable to find version of CDP to use for 150.0.7871.187. You may need 
+to include a dependency on a specific version of the CDP using something 
+similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the 
+version ("v86") matches the version of the chromium-based browser you're using 
+and the version number of the artifact is the same as Selenium's.
+Aug 06, 2026 9:34:12 PM org.openqa.selenium.chromium.ChromiumDriver 
+lambda$new$5
+WARNING: Unable to find version of CDP to use for 150.0.7871.187. You may need 
+to include a dependency on a specific version of the CDP using something 
+similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the 
+version ("v86") matches the version of the chromium-based browser you're using 
+and the version number of the artifact is the same as Selenium's.
+Aug 06, 2026 9:34:12 PM org.openqa.selenium.chromium.ChromiumDriver 
+lambda$new$5
+WARNING: Unable to find version of CDP to use for 150.0.7871.187. You may need 
+to include a dependency on a specific version of the CDP using something 
+similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the 
+version ("v86") matches the version of the chromium-based browser you're using 
+and the version number of the artifact is the same as Selenium's.
+Aug 06, 2026 9:34:13 PM org.openqa.selenium.devtools.CdpVersionFinder 
+findNearestMatch
+WARNING: Unable to find CDP implementation matching 150
+Aug 06, 2026 9:34:13 PM org.openqa.selenium.chromium.ChromiumDriver 
+lambda$new$5
+WARNING: Unable to find version of CDP to use for 150.0.7871.187. You may need 
+to include a dependency on a specific version of the CDP using something 
+similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the 
+version ("v86") matches the version of the chromium-based browser you're using 
+and the version number of the artifact is the same as Selenium's.
+Aug 06, 2026 9:34:13 PM org.openqa.selenium.devtools.CdpVersionFinder 
+findNearestMatch
+WARNING: Unable to find CDP implementation matching 150
+Aug 06, 2026 9:34:13 PM org.openqa.selenium.chromium.ChromiumDriver 
+lambda$new$5
+WARNING: Unable to find version of CDP to use for 150.0.7871.187. You may need 
+to include a dependency on a specific version of the CDP using something 
+similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the 
+version ("v86") matches the version of the chromium-based browser you're using 
+and the version number of the artifact is the same as Selenium's.
+Aug 06, 2026 9:34:13 PM org.openqa.selenium.devtools.CdpVersionFinder 
+findNearestMatch
+WARNING: Unable to find CDP implementation matching 150
+Aug 06, 2026 9:34:13 PM org.openqa.selenium.chromium.ChromiumDriver 
+lambda$new$5
+WARNING: Unable to find version of CDP to use for 150.0.7871.187. You may need 
+to include a dependency on a specific version of the CDP using something 
+similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the 
+version ("v86") matches the version of the chromium-based browser you're using 
+and the version number of the artifact is the same as Selenium's.
+  Given the user opens the OpenCart homepage                     # stepdefinitions.OpenCartSteps.openHomepage()
+  Given the user opens the OpenCart homepage                     # stepdefinitions.OpenCartSteps.openHomepage()
+  Given the user opens the OpenCart homepage                  # stepdefinitions.OpenCartSteps.openHomepage()
+  Given the user opens the OpenCart homepage                     # stepdefinitions.OpenCartSteps.openHomepage()
+  When the user clicks on the featured product "MacBook"         # stepdefinitions.OpenCartSteps.clickFeaturedProduct(java.lang.String)
+  Then the product detail page should be displayed               # stepdefinitions.OpenCartSteps.verifyProductPage()
+  And the product title should contain "MacBook"                 # stepdefinitions.OpenCartSteps.verifyProductTitle(java.lang.String)
+  Given the user opens the OpenCart homepage                  # stepdefinitions.OpenCartSteps.openHomepage()
+  When the user clicks on the featured product "MacBook"         # stepdefinitions.OpenCartSteps.clickFeaturedProduct(java.lang.String)
+  Then the product detail page should be displayed               # stepdefinitions.OpenCartSteps.verifyProductPage()
+  And the product title should contain "MacBook"                 # stepdefinitions.OpenCartSteps.verifyProductTitle(java.lang.String)
+  Given the user opens the OpenCart homepage                  # stepdefinitions.OpenCartSteps.openHomepage()
+  When the user clicks on the featured product "MacBook"         # stepdefinitions.OpenCartSteps.clickFeaturedProduct(java.lang.String)
+  Then the product detail page should be displayed               # stepdefinitions.OpenCartSteps.verifyProductPage()
+  And the product title should contain "MacBook"                 # stepdefinitions.OpenCartSteps.verifyProductTitle(java.lang.String)
+  And the user registers a new account                        # stepdefinitions.OpenCartSteps.registerNewAccount()
+  And the user registers a new account                        # stepdefinitions.OpenCartSteps.registerNewAccount()
+  And the user registers a new account                        # stepdefinitions.OpenCartSteps.registerNewAccount()
+  When the user logs in with the registered account           # stepdefinitions.OpenCartSteps.loginWithRegisteredAccount()
+      org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.id: input-email (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '26.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 150.0.7871.187, chrome: {chromedriverVersion: 150.0.7871.124 (9261fd0a595..., userDataDir: C:\Users\deepi\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62289}, goog:processID: 22040, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62289/devtoo..., se:cdpVersion: 150.0.7871.187, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e3da6bb2aad0d74ed7eb6239a78c89e3
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at pageobjects.LoginPage.login(LoginPage.java:36)
+	at pagemethods.OpenCartActions.login(OpenCartActions.java:54)
+	at stepdefinitions.OpenCartSteps.loginWithRegisteredAccount(OpenCartSteps.java:51)
+	at ?.the user logs in with the registered account(file:///C:/Users/deepi/Downloads/Naveen%20automation/src/test/resources/features/openCartSearchAndBrowse.feature:15)
+
+  Then the My Account page should be displayed                # stepdefinitions.OpenCartSteps.verifyMyAccountPage()
+  When the user logs out                                      # stepdefinitions.OpenCartSteps.logout()
+  Then the account logout page should be displayed            # stepdefinitions.OpenCartSteps.verifyLogoutPage()
+  When the user logs in with the registered account           # stepdefinitions.OpenCartSteps.loginWithRegisteredAccount()
+      org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.id: input-email (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '26.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 150.0.7871.187, chrome: {chromedriverVersion: 150.0.7871.124 (9261fd0a595..., userDataDir: C:\Users\deepi\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65209}, goog:processID: 19780, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65209/devtoo..., se:cdpVersion: 150.0.7871.187, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5baee5810d04b6dd21bfc9ae410d72a0
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at pageobjects.LoginPage.login(LoginPage.java:36)
+	at pagemethods.OpenCartActions.login(OpenCartActions.java:54)
+	at stepdefinitions.OpenCartSteps.loginWithRegisteredAccount(OpenCartSteps.java:51)
+	at ?.the user logs in with the registered account(file:///C:/Users/deepi/Downloads/Naveen%20automation/src/test/resources/features/openCartSearchAndBrowse.feature:15)
+
+  Then the My Account page should be displayed                # stepdefinitions.OpenCartSteps.verifyMyAccountPage()
+  When the user logs out                                      # stepdefinitions.OpenCartSteps.logout()
+  Then the account logout page should be displayed            # stepdefinitions.OpenCartSteps.verifyLogoutPage()
+  When the user logs in with the registered account           # stepdefinitions.OpenCartSteps.loginWithRegisteredAccount()
+      org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.id: input-email (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '26.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 150.0.7871.187, chrome: {chromedriverVersion: 150.0.7871.124 (9261fd0a595..., userDataDir: C:\Users\deepi\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58305}, goog:processID: 20788, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58305/devtoo..., se:cdpVersion: 150.0.7871.187, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b367f668f62ddee38c9898c981799947
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at pageobjects.LoginPage.login(LoginPage.java:36)
+	at pagemethods.OpenCartActions.login(OpenCartActions.java:54)
+	at stepdefinitions.OpenCartSteps.loginWithRegisteredAccount(OpenCartSteps.java:51)
+	at ?.the user logs in with the registered account(file:///C:/Users/deepi/Downloads/Naveen%20automation/src/test/resources/features/openCartSearchAndBrowse.feature:15)
+
+  Then the My Account page should be displayed                # stepdefinitions.OpenCartSteps.verifyMyAccountPage()
+  When the user logs out                                      # stepdefinitions.OpenCartSteps.logout()
+  Then the account logout page should be displayed            # stepdefinitions.OpenCartSteps.verifyLogoutPage()
+[ERROR] Tests run: 6, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 178.7 s <<< FAILURE! -- in TestSuite
+[ERROR] runner.TestRunner.runScenario["User registers, logs in, and logs out from OpenCart", "OpenCart shopping journey"](2) -- Time elapsed: 163.2 s <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for element to be clickable: By.id: input-email (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '26.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 150.0.7871.187, chrome: {chromedriverVersion: 150.0.7871.124 (9261fd0a595..., userDataDir: C:\Users\deepi\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62289}, goog:processID: 22040, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62289/devtoo..., se:cdpVersion: 150.0.7871.187, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e3da6bb2aad0d74ed7eb6239a78c89e3
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at pageobjects.LoginPage.login(LoginPage.java:36)
+	at pagemethods.OpenCartActions.login(OpenCartActions.java:54)
+	at stepdefinitions.OpenCartSteps.loginWithRegisteredAccount(OpenCartSteps.java:51)
+	at ?.the user logs in with the registered account(file:///C:/Users/deepi/Downloads/Naveen%20automation/src/test/resources/features/openCartSearchAndBrowse.feature:15)
+
+[ERROR] runner.TestRunner.runScenario["User registers, logs in, and logs out from OpenCart", "OpenCart shopping journey"](2) -- Time elapsed: 165.3 s <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for element to be clickable: By.id: input-email (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '26.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 150.0.7871.187, chrome: {chromedriverVersion: 150.0.7871.124 (9261fd0a595..., userDataDir: C:\Users\deepi\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65209}, goog:processID: 19780, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65209/devtoo..., se:cdpVersion: 150.0.7871.187, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5baee5810d04b6dd21bfc9ae410d72a0
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at pageobjects.LoginPage.login(LoginPage.java:36)
+	at pagemethods.OpenCartActions.login(OpenCartActions.java:54)
+	at stepdefinitions.OpenCartSteps.loginWithRegisteredAccount(OpenCartSteps.java:51)
+	at ?.the user logs in with the registered account(file:///C:/Users/deepi/Downloads/Naveen%20automation/src/test/resources/features/openCartSearchAndBrowse.feature:15)
+
+[ERROR] runner.TestRunner.runScenario["User registers, logs in, and logs out from OpenCart", "OpenCart shopping journey"](2) -- Time elapsed: 168.3 s <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for element to be clickable: By.id: input-email (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '26.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 150.0.7871.187, chrome: {chromedriverVersion: 150.0.7871.124 (9261fd0a595..., userDataDir: C:\Users\deepi\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58305}, goog:processID: 20788, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58305/devtoo..., se:cdpVersion: 150.0.7871.187, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b367f668f62ddee38c9898c981799947
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at pageobjects.LoginPage.login(LoginPage.java:36)
+	at pagemethods.OpenCartActions.login(OpenCartActions.java:54)
+	at stepdefinitions.OpenCartSteps.loginWithRegisteredAccount(OpenCartSteps.java:51)
+	at ?.the user logs in with the registered account(file:///C:/Users/deepi/Downloads/Naveen%20automation/src/test/resources/features/openCartSearchAndBrowse.feature:15)
+
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Failures: 
+[ERROR] runner.TestRunner.runScenario["User registers, logs in, and logs out from OpenCart", "OpenCart shopping journey"](2)
+[ERROR]   Run 1: TestRunner.runScenario ╗ Timeout Expected condition failed: waiting for element to be clickable: By.id: input-email (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '26.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 150.0.7871.187, chrome: {chromedriverVersion: 150.0.7871.124 (9261fd0a595..., userDataDir: C:\Users\deepi\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62289}, goog:processID: 22040, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62289/devtoo..., se:cdpVersion: 150.0.7871.187, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e3da6bb2aad0d74ed7eb6239a78c89e3
+[ERROR]   Run 2: TestRunner.runScenario ╗ Timeout Expected condition failed: waiting for element to be clickable: By.id: input-email (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '26.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 150.0.7871.187, chrome: {chromedriverVersion: 150.0.7871.124 (9261fd0a595..., userDataDir: C:\Users\deepi\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65209}, goog:processID: 19780, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65209/devtoo..., se:cdpVersion: 150.0.7871.187, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5baee5810d04b6dd21bfc9ae410d72a0
+[ERROR]   Run 3: TestRunner.runScenario ╗ Timeout Expected condition failed: waiting for element to be clickable: By.id: input-email (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '26.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 150.0.7871.187, chrome: {chromedriverVersion: 150.0.7871.124 (9261fd0a595..., userDataDir: C:\Users\deepi\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58305}, goog:processID: 20788, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58305/devtoo..., se:cdpVersion: 150.0.7871.187, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b367f668f62ddee38c9898c981799947
+[INFO] 
+[INFO] 
+[ERROR] Tests run: 4, Failures: 1, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  03:32 min
+[INFO] Finished at: 2026-08-06T21:36:22+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:3.2.5:test (default-test) on project opencart-hybrid-framework: There are test failures.
+[ERROR] 
+[ERROR] Please refer to C:\Users\deepi\Downloads\Naveen automation\target\surefire-reports for the individual test results.
+[ERROR] Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
